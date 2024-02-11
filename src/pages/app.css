@@ -1,0 +1,13 @@
+.app-container {
+    background-color: #fff;
+    height: 100%;
+}
+
+.anticon {
+    width: 16px;
+    height: 16px;
+}
+.anticon > svg > path,
+.anticon > svg {
+    fill: var(--primary-light-9);
+}
