@@ -11,3 +11,13 @@ export interface ButtonStatePropsWithSvg extends ButtonStateProps {
     svg?: boolean;
     mobile?: boolean;
 }
+
+export type IconLinkType = {
+    linkText: string;
+    icon: ReactNode;
+};
+
+export type cardInfoListType = {
+    text: string;
+    link: IconLinkType;
+};

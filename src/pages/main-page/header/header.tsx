@@ -10,7 +10,7 @@ export const Header = () => {
             <header className='header'>
                 <Space direction='vertical'>
                     <Text>Главная</Text>
-                    <Space align='start' size={'large'}>
+                    <Space align='start'>
                         <Title level={1} className='title'>
                             Приветствуем тебя в CleverFit — приложении, <br />
                             которое поможет тебе добиться своей мечты!

@@ -1,0 +1,79 @@
+.content-container {
+    width: 100%;
+    height: 100%;
+    padding: 24px 24px 42px;
+    gap: 24px;
+    background: url('./images/enter-page-light.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-container {
+    padding: 24px;
+    border-radius: 2px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: var(--character-light-primary-inverse);
+    max-width: 752px;
+    width: 100%;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.main-list {
+    display: flex;
+    gap: 16px;
+}
+.link-card-content {
+    display: flex;
+    width: 100%;
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+    padding: 12px 0;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 24px;
+    min-height: 283px;
+    max-height: 364px;
+    height: auto;
+    width: 100%;
+}
+.contact-info-container .ant-space {
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review-button {
+    border-radius: 2px;
+    padding: 6px 15px;
+    width: 171px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-list {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-info-container {
+        flex-wrap: wrap-reverse;
+        padding: 0;
+        width: 100%;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .ant-space-item .review-button {
+        text-align: center;
+    }
+}

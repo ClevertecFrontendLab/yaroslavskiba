@@ -18,7 +18,7 @@ root.render(
         <Provider store={store}>
             <HashRouter>
                 <Routes>
-                    <Route element={<App />}>
+                    <Route element={<App />} path='/'>
                         <Route path='/' element={<MainPage />} />
                     </Route>
                 </Routes>

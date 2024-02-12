@@ -19,6 +19,7 @@
 }
 
 .collapse-button {
+    z-index: 100;
     top: 50%;
     transform: translate (-50%, -50%);
     height: 66px;
@@ -85,5 +86,13 @@
 
     .exit-button {
         justify-content: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .side-menu {
+        z-index: 100;
+        position: fixed;
+        height: 100%;
     }
 }
