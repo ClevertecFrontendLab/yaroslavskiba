@@ -1,13 +1,35 @@
 .app-container {
     background-color: #fff;
     height: 100%;
+    width: 100%;
 }
 
 .anticon {
     width: 16px;
     height: 16px;
 }
-.anticon > svg > path,
-.anticon > svg {
-    fill: var(--primary-light-9);
+
+.icon-button {
+    padding: 7px 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-button * {
+    width: min-content;
+    fill: var(--character-light-title-85);
+}
+
+@media (max-width: 834px) {
+    .icon-button > .anticon {
+        display: none;
+    }
+    .icon-button span {
+        margin: 0;
+    }
+
+    h1.ant-typography {
+        font-size: 24px;
+    }
 }

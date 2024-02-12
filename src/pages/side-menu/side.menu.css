@@ -3,6 +3,10 @@
     max-width: 208px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
 }
+.side-menu .anticon > svg > path,
+.side-menu .anticon > svg {
+    fill: var(--primary-light-9);
+}
 
 .logo {
     height: 64px;
